@@ -8,21 +8,21 @@
 </head>
 <body>
     <div id="ButtonContainer">
-        <button type="button" id="amazonbutton">
-            <p>Create Your Amazon Account</p>
-        </button>
-        <div id="amazonbutton2">
+       
+        <button onclick="window.location.href='/signedin.html';" id="amazonbutton" >Create Your Amazon Account</button>
+        
+        <div id="amazonbuttontext">
             ------------------------New to Amazon?------------------------
         </div>
         <div id="loginbox">
             
             <form action="/signedin.html">
-                <p id="SignIn" class="space">Sign In</p>
+                <p id="SignIn" id="signin" >Sign In</p>
                 <label for="email" class="space">Email(phone or mobile accounts):</label>
                 <input type="text" class="space" id="email" name="email" placeholder="Enter Email Address">
                 <label for="password" class="space">Password:</label>
                 <input type="text" class="space" id="password" name="password" placeholder="Enter Password">
-                <a href="/signedin.html" class="space">Forgot Password?</a><br>
+                <a href="/signedin.html" class="space">Forgot Password?</a><br><br>
                 <input type="submit" class="space" id="continuebutton" value="Continue">
             </form>
             <div id="needhelp">
